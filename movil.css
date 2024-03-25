@@ -1,0 +1,111 @@
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+    
+    header {
+        flex-direction: column;
+        display: block;
+        width: 100%;
+        align-items: center;
+        border: none;
+    }
+
+    .iconos1 {
+        flex-direction: column; /* Cambiar la dirección de flexbox a columna */
+        align-items: center; /* Centrar elementos verticalmente */
+    }
+
+    .izquierda, .derecha {
+        width: 100%;
+        margin: 10px 0; /* Agregar espacio entre los elementos */
+        align-items: center;
+    }
+    .btnmenu {
+        display: block; /* Cambiar a bloque para que se muestren verticalmente */
+        text-align: center; /* Centrar el texto horizontalmente */
+        align-items: center;
+        padding: 10px; /* Añadir espacio interno */
+        margin: 10px 0; /* Agregar espacio entre los elementos */
+
+    }
+
+    .login {
+        width: 100%; /* Ocupar todo el ancho en móvil */
+        margin-top: 10px; /* Espacio entre los elementos btnmenu y el enlace login */
+    }
+    
+    .cabecera{
+        flex-direction: column!important;
+        text-align: center;
+        align-items: center;
+    }
+    .cabecera nav{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .menu{
+        flex-direction:column;
+        align-items: center;
+        width: 90%;
+        margin:1px;
+        padding:1px;
+    }
+    .menu li {
+        width: 100%;
+        text-align: center;
+        padding: 10px; /* Añade relleno para mejorar la apariencia */
+        border: 1px solid lightgray; /* Añade un borde a cada elemento de la lista */
+        background-color: #eaeaea;
+        margin-top: 5px; /* Espacio entre elementos de lista */
+    }
+    
+    .buscar{
+        max-width: 600px;
+    }
+    .buscar input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contenedorfotos{
+        flex-direction: column;
+    }
+        .pie1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .pie1 h1 {
+        color: white;
+        font-size: 27px;
+    }
+
+    .pie1 h2 {
+        color: white;
+    }
+
+    .pie1 button {
+        color: black;
+        background-color: white;
+    }
+
+    .encima {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        top: 0%;
+        left: 10%;
+    }
+
+    .pie1 .contenedorfotos img {
+        max-width: 100%; /* Evita que la imagen sea más ancha que su contenedor */
+        width: auto; /* Mantiene la relación de aspecto original */
+        max-width: 480px; /* Establece el ancho máximo en 480px */
+    }
+}

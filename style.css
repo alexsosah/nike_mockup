@@ -1,0 +1,155 @@
+*{
+    list-style: none;
+}
+body{
+    font-family: Helvetica;
+}
+header{
+    border: 1px solid gray;
+    width: 100%;
+    margin: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+button{
+    padding:15px 26px;
+    background-color: #333333;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 17.5px;
+    font-weight: 500;
+}
+.iconos1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icono2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btnmenu{
+    border: 2px lightgray solid;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+li{
+    margin: 0 10px;
+    font-weight:bold;
+    text-decoration: none;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    max-width: 800px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+form{
+    max-width: 200px;
+}
+
+.cuadrogris{
+    background-color: #F7F7F7 ;
+    height: 50px;
+    width: 100%;
+}
+.contenedorfotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorfotos figure{
+    max-width: 6000px;
+    margin: 0%;
+}
+.contenedorfotos figure img{
+    max-width: 100%;
+    width: auto;
+    height:100%;
+    display: block;
+    margin-bottom: 50px;
+}
+.contenedorfotos figure.banner1 img{
+    max-width: 421px;
+}
+.bloquetexto{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+footer{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+.pie1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.pie1 h1{
+    color: white;
+    font-size: 27px;
+}
+.pie1 h2{
+    color: white;
+}
+.pie1 button{
+    color: black;
+    background-color: white;
+}
+.encima{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    top:0%;
+    left:10%;
+}
+.pieoscurito{
+    max-width: 100%;
+}
+.pieoscurito h1{
+    color: white;
+    text-decoration: none;
+}
